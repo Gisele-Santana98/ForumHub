@@ -4,11 +4,17 @@ Bem-vindo ao ForumHub, uma API REST construída com Spring Boot para gerenciar t
 ## 🚀 Tecnologias utilizadas
 
 💚 Spring Boot 3
+
 🔐 Spring Security + JWT
+
 🐘 Spring Data JPA
+
 🧪 Swagger (OpenAPI 3)
+
 🛢️ Banco de dados H2 (testes) ou PostgreSQL (produção)
+
 🛡️ BCrypt para hashing de senhas
+
 🛠️ Lombok, ModelMapper
 
 ## 🔒 Autenticação e Autorização
