@@ -26,15 +26,22 @@ Authorization: Bearer <seu_token_jwt>
 ## ✳️ Perfis de usuário disponíveis:
 
 USER: pode criar e visualizar tópicos
+
 ADMIN: pode editar e excluir tópicos
 
 ## 📂 Endpoints principais
 Método	Rota	Descrição	Autenticação
+
 POST	/auth/register	Cadastro de novo usuário	❌ pública
+
 POST	/auth/login	Autenticação e geração de token JWT	❌ pública
+
 GET	/topicos	Listar tópicos	✅ protegida
+
 POST	/topicos	Criar novo tópico	✅ USER
+
 PUT	/topicos/{id}	Atualizar tópico por ID	✅ ADMIN
+
 DELETE	/topicos/{id}	Remover tópico por ID	✅ ADMIN
 
 ## 🧠 Autor(a)
