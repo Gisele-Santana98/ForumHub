@@ -1,4 +1,4 @@
-##📚 ForumHub API
+## 📚 ForumHub API
 Bem-vindo ao ForumHub, uma API REST construída com Spring Boot para gerenciar tópicos de discussão. Ela conta com autenticação via JWT, documentação via Swagger, e boas práticas de segurança usando Spring Security.
 
 🚀 Tecnologias utilizadas
